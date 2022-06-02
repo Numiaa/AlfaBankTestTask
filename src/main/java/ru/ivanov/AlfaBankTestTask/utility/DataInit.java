@@ -1,4 +1,4 @@
-package ru.ivanov.AlfaBankTestTask;
+package ru.ivanov.AlfaBankTestTask.utility;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -9,6 +9,7 @@ import javax.annotation.PostConstruct;
 @Component
 public class DataInit {
 
+    //для обновления данных перед использованием класса
     private final ExchangeRatesService exchangeRatesService;
 
     @Autowired
