@@ -1,6 +1,6 @@
 # AlfaBankTestTask
 
-Задача: создать сервис, который взаимодействует с сервисом курса валют и сервисом gif изображений.
+# Задача: создать сервис, который взаимодействует с сервисом курса валют и сервисом gif изображений.
 
 - Если курс валюты по отношению к USD стал выше, то пользователь получает рандомную gif отсюда: https://giphy.com/search/rich
 - Если ниже, отсюда: https://giphy.com/search/broke
@@ -13,5 +13,12 @@
 Результат: репозиторий на GitHub с инструкцией по запуску.
 
 
-Запуск приложения.
-Cпособ 1. 
+# Запуск .jar файла.
+java -jar /path_to_jar_file/AlfaBankTestTask-0.0.1-SNAPSHOT.jar
+
+# Запуск docker images.
+
+1. docker build /path_to_dockerfile![Снимок экрана 2022-06-02 в 13 37 27](https://user-images.githubusercontent.com/95632773/171578641-c6c786fb-5b4b-437e-bee4-73dea3af19cc.png)
+
+2. docker images (
+
