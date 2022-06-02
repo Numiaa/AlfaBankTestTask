@@ -18,7 +18,9 @@ java -jar /path_to_jar_file/AlfaBankTestTask-0.0.1-SNAPSHOT.jar
 
 # Запуск docker images.
 
-1. docker build /path_to_dockerfile![Снимок экрана 2022-06-02 в 13 37 27](https://user-images.githubusercontent.com/95632773/171578641-c6c786fb-5b4b-437e-bee4-73dea3af19cc.png)
+1. Выполнить команду $sudo docker build /path_to_dockerfile, для создания образа.
+2. Выполнить команду $sudo docker images, чтобы убедиться в создании образа и узнать ID.
+3. Запустить приложение командой $sudo docker run -p 8080:8080 <IMAGE_ID>.
+[Снимок экрана 2022-06-02 в 13 37 27](https://user-images.githubusercontent.com/95632773/171578641-c6c786fb-5b4b-437e-bee4-73dea3af19cc.png)
 
-2. docker images (
 
