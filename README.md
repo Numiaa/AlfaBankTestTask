@@ -18,7 +18,7 @@ GET /api/get-codes : запрос списка всех валют, получа
 
 ![Снимок экрана 2022-06-02 в 13 47 49](https://user-images.githubusercontent.com/95632773/171580721-db1a3014-7397-4c62-9d7b-31b442be0cc6.png)
 
-GET /api/get-gif/{CODE} : получаем Gif изображение в зависимости от изменения курса.
+GET /api/get-gif/{CODE} : получаем JSON сущности в зависимости от изменения курса.
 
 ![Снимок экрана 2022-06-02 в 13 48 26](https://user-images.githubusercontent.com/95632773/171580824-53970224-ea49-402e-b839-0f0c0ac0189b.png)
 
