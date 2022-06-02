@@ -44,4 +44,5 @@ java -jar /path_to_jar_file/AlfaBankTestTask-0.0.1-SNAPSHOT.jar
 ![Снимок экрана 2022-06-02 в 13 41 14](https://user-images.githubusercontent.com/95632773/171579422-1d1e96d3-7140-49b9-be2f-b823d84b71a8.png)
 
 2. Интерфейс доступен по адресу localhost:8080
+
 ![Снимок экрана 2022-06-02 в 13 52 23](https://user-images.githubusercontent.com/95632773/171581556-c0df6bca-e72a-4c91-a5b6-0698265821c5.png)
